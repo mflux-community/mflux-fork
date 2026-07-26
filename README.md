@@ -1,4 +1,4 @@
-![image](src/mflux/assets/logo.jpg)
+![image](src/mflux/assets/mflux-community-logo.jpg)
 
 [![MFLUX](https://img.shields.io/pypi/v/mflux?label=MFLUX&logo=pypi&logoColor=white)](https://pypi.org/project/mflux/)
 [![MLX](https://img.shields.io/pypi/v/mlx?label=MLX&logo=pypi&logoColor=white)](https://pypi.org/project/mlx/)
