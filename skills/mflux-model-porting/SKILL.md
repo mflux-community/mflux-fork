@@ -18,7 +18,7 @@ Provide a repeatable, MLX-focused workflow for porting ML models (typically from
 1. **Scope and parity**
    - Define target parity (outputs, speed, memory) and acceptable tolerances.
    - Identify reference files, configs, and checkpoints to mirror.
-   - Draft a Cursor plan for the port and review it before starting implementation.
+   - Draft an implementation plan for the port and review it before starting implementation.
 2. **Port fast to reference**
    - Add the model package skeleton and a variant class + initializer.
    - Follow standard mflux initializer/weight-loading style; review recent ports like `z_image_turbo` and `flux2_klein` for structure and naming.
