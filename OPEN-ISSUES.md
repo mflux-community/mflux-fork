@@ -3,7 +3,7 @@
 These are the open issues on [Filip's repo](https://github.com/filipstrand/mflux/issues) at Monday 27 July 2026 
 
 
-**[487](https://github.com/filipstrand/mflux/issues/487)**\n
+**[487](https://github.com/filipstrand/mflux/issues/487)**<br>
 **Microsoft Mage-Flow**
 **2026-07-26**
 Pall13 Request to add support for Microsoft's Mage-Flow text-to-image and Mage-Flow-Edit instruction-based editing models, citing concern that mflux risks becoming obsolete.
