@@ -2,7 +2,7 @@
 
 [![MFLUX](https://img.shields.io/pypi/v/mflux?label=MFLUX&logo=pypi&logoColor=white)](https://pypi.org/project/mflux/)
 [![MLX](https://img.shields.io/pypi/v/mlx?label=MLX&logo=pypi&logoColor=white)](https://pypi.org/project/mlx/)
-[![CI](https://github.com/filipstrand/mflux/actions/workflows/tests.yml/badge.svg)](https://github.com/filipstrand/mflux/actions/workflows/tests.yml)
+[![CI](https://github.com/mflux-community/mflux-fork/actions/workflows/tests.yml/badge.svg)](https://github.com/mflux-community/mflux-fork/actions/workflows/tests.yml)
 
 ### About
 

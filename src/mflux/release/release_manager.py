@@ -13,7 +13,7 @@ class ReleaseManager:
     def create_release(
         github_token: str,
         pypi_token: str,
-        github_repo: str = "filipstrand/mflux",
+        github_repo: str = "mflux-community/mflux-fork",
         package_name: str = "mflux",
     ) -> None:
         # 0. Load version from pyproject.toml

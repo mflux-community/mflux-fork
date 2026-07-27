@@ -1,6 +1,7 @@
 .idea
 .vscode
 .DS_Store
+.venv
 .env
 .env.local
 .env.development.local
@@ -8,7 +9,7 @@
 .env.production.local
 
 .venv
-*.lock  # created by uv sync
+*.lock
 *.png
 *.jpg
 *.pyc
@@ -29,3 +30,6 @@ build/
 .fls
 .aux
 .log
+
+# Claude stuff
+.claude/settings.local.json

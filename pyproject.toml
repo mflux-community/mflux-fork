@@ -71,7 +71,7 @@ dev = [
 ]
 
 [project.urls]
-homepage = "https://github.com/filipstrand/mflux"
+homepage = "https://github.com/mflux-community/mflux-fork"
 
 [project.scripts]
 mflux-generate = "mflux.models.flux.cli.flux_generate:main"
