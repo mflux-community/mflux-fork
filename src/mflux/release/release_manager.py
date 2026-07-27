@@ -14,7 +14,7 @@ class ReleaseManager:
         github_token: str,
         pypi_token: str,
         github_repo: str = "mflux-community/mflux-fork",
-        package_name: str = "mflux",
+        package_name: str = "mflux2",
     ) -> None:
         # 0. Load version from pyproject.toml
         version = VersionUtil.get_mflux_version()

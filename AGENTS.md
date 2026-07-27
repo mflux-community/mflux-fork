@@ -54,10 +54,10 @@ These rules exist to make agent work in this repo **predictable, verifiable, and
 - Before any major squash/rewrite of local branch history, create a **local backup branch** at the current `HEAD` first (for example `backup/<branch>-pre-squash-YYYYMMDD-HHMM` so repeated backups stay unique to the minute).
 - That backup branch is intentionally **local-only** for safety and rollback; do not push it unless the user explicitly asks.
 
-## Agent workflow norms (modern Cursor best practices)
+## Agent workflow norms
 
 - For multi-file or high-risk work, **start with a short plan** (bullets: goals, constraints, files to touch, how you’ll verify).
-- **Plan Mode Enforcement**: For any non-trivial task or high architectural risk, save your plan to `.cursor/plans/YYYY-MM-DD-feature-name.md` and ask for approval before coding.
+- **Plan Mode Enforcement**: For any non-trivial task or high architectural risk, save your plan to `documentation/plans/YYYY-MM-DD-feature-name.md` and ask for approval before coding.
 - Keep changes tight, and prefer **verifiable goals** (tests/lint/build) over speculation.
 - If the task scope changes materially, stop and re-align rather than continuing in a confused state.
 - When users ask for CLI usage (e.g., “Can you help me generate an image using z-image?”), use the `mflux-cli` skill.
