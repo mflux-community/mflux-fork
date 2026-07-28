@@ -122,7 +122,7 @@ MFLUX supports the following model families. They have different strengths and w
 | --- | --- | --- | --- | --- | --- | --- |
 |[Z-Image](src/mflux/models/z_image/README.md) | Nov 2025 | 6B | Distilled & Base | Yes | TBA | Fast, small, very good quality and realism. |
 |[Krea 2](src/mflux/models/krea2/README.md) | Jun 2026 | 12B | Turbo (distilled) | No | TBA | Very good quality with a wide range of styles; good for creative exploration. |
-|[FLUX.2](src/mflux/models/flux2/README.md) | Jan 2026 | 4B & 9B | Distilled & Base | Yes | TBA | Fastest + smallest with very good qaility and edit capabilities. |
+|[FLUX.2](src/mflux/models/flux2/README.md) | Jan 2026 | 4B & 9B | Distilled & Base | Yes | TBA | Fastest + smallest with very good quality and edit capabilities. |
 |[Ideogram 4](src/mflux/models/ideogram4/README.md) | Jun 2026 | 9B | Base | No | TBA | JSON-caption-native, typography-focused text-to-image generation. |
 |[ERNIE-Image](src/mflux/models/ernie_image/README.md) | Apr 2026 | 8B | Distilled & Base | No | TBA | Single-stream DiT from Baidu. Vivid, high-contrast output. |
 |[FIBO](src/mflux/models/fibo/README.md) | Oct 2025+ | 8B | Distilled & Base | No | TBA | Very good JSON-based prompt understanding. Has edit capabilities. |
