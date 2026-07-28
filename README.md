@@ -159,25 +159,114 @@ See the [common README](src/mflux/models/common/README.md) for detailed usage an
 <a id="contributors"></a>
 
 ### 🌱 Contributors
-MFlux was originally created by Philip Strand in August 2024 And open sourced on GitHub.  
+MFlux was originally created by Filip Strand in August 2024 and open sourced on GitHub.
 
-| Model | Component | Contributor | Date | URL |
+<table>
+<tr>
+<td align="center" width="150">
+<a href="https://github.com/filipstrand"><img src="https://github.com/filipstrand.png?size=100" width="72" alt="filipstrand"><br><b>Filip Strand</b></a><br>
+<sub>created mflux<br>FLUX.1 · FLUX.2 · Z-Image<br>FIBO · SeedVR2 · Qwen · Depth Pro</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/plz12345"><img src="https://github.com/plz12345.png?size=100" width="72" alt="plz12345"><br><b>plz12345</b></a><br>
+<sub>Krea 2 · Boogu-Image<br>Ideogram 4 mlx-forge loading</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/ivanfioravanti"><img src="https://github.com/ivanfioravanti.png?size=100" width="72" alt="ivanfioravanti"><br><b>Ivan Fioravanti</b></a><br>
+<sub>Mage Flow<br>text-to-image and edit</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/azrahello"><img src="https://github.com/azrahello.png?size=100" width="72" alt="azrahello"><br><b>Alessandro Rizzo</b></a><br>
+<sub>ERNIE-Image<br>configurable VAE tiling</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/omercelik"><img src="https://github.com/omercelik.png?size=100" width="72" alt="omercelik"><br><b>omercelik</b></a><br>
+<sub>Ideogram 4</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="150">
+<a href="https://github.com/ZimengXiong"><img src="https://github.com/ZimengXiong.png?size=100" width="72" alt="ZimengXiong"><br><b>Zimeng Xiong</b></a><br>
+<sub>Qwen-Image-Layered<br>RGBA decomposition</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/JanGrohn"><img src="https://github.com/JanGrohn.png?size=100" width="72" alt="JanGrohn"><br><b>Jan Grohn</b></a><br>
+<sub>LyCORIS LoKr adapters</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/michaeltrefry"><img src="https://github.com/michaeltrefry.png?size=100" width="72" alt="michaeltrefry"><br><b>michaeltrefry</b></a><br>
+<sub>FLUX.2 KV-cache<br>klein-9b-kv</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/ianscrivener"><img src="https://github.com/ianscrivener.png?size=100" width="72" alt="ianscrivener"><br><b>Ian Scrivener</b></a><br>
+<sub>FLUX.2 mixed-quant inference</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/deadmansahil"><img src="https://github.com/deadmansahil.png?size=100" width="72" alt="deadmansahil"><br><b>Sahil Tanveer</b></a><br>
+<sub>fused-qkv LoRA loading</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="150">
+<a href="https://github.com/scaryrawr"><img src="https://github.com/scaryrawr.png?size=100" width="72" alt="scaryrawr"><br><b>Mike Wallio</b></a><br>
+<sub>ERNIE / Krea 2<br>img2img tiled latents</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/imbible"><img src="https://github.com/imbible.png?size=100" width="72" alt="imbible"><br><b>George</b></a><br>
+<sub>Qwen model version defaults</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/Missing-Identity"><img src="https://github.com/Missing-Identity.png?size=100" width="72" alt="Missing-Identity"><br><b>Unmilan Mukherjee</b></a><br>
+<sub>SeedVR2<br>linear-time histogram matching</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/fxd0h"><img src="https://github.com/fxd0h.png?size=100" width="72" alt="fxd0h"><br><b>Mariano Abad</b></a><br>
+<sub>Z-Image and Krea 2 ControlNets<br>multi-ControlNet · training suite</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/filipstrand/mflux/graphs/contributors"><img src="https://github.com/mflux-community.png?size=100" width="72" alt="everyone else"><br><b>everyone else</b></a><br>
+<sub>every contributor and tester<br>in the graph</sub>
+</td>
+</tr>
+</table>
+
+The provenance behind that grid. Dates are the **merge date of the PR that brought the work in**, which
+is a different thing from the model's own public release date. Every row is read out of the upstream git
+history rather than filled in by hand, so it can be re-derived:
+`gh pr view <n> -R filipstrand/mflux --json author,mergedAt`.
+
+Merged upstream:
+
+| Model | Component | Contributor | Merged | PR |
 |--|--|--|--|--|
-| Boogu | | [@plz12345](https://github.com/plz12345) | TBA | [filipstrand#446](https://github.com/filipstrand/mflux/pull/446) |
-| Qwen-Image-Layered | | [@ZimengXiong](https://github.com/ZimengXiong) | TBA | [filipstrand#302](https://github.com/filipstrand/mflux/pull/302) |
-| Mage Flow | | [@ivanfioravanti](https://github.com/ivanfioravanti) | TBA | [filipstrand#483](https://github.com/filipstrand/mflux/pull/483) |
-| Krea 2 | ControlNet: Depth | [@fxd0h](https://github.com/fxd0h) | TBA | ? |
-| Z-Image | ControlNet: Union | [@fxd0h](https://github.com/fxd0h) | TBA | ? |
-| Z-Image | | [@filipstrand](https://github.com/filipstrand) | Nov 2025 | TBA |
-| Krea 2 | | [@filipstrand](https://github.com/filipstrand) | Jun 2026 | TBA |
-| FLUX.2 | | [@filipstrand](https://github.com/filipstrand) | Jan 2026 | TBA |
-| Ideogram 4 | | [@filipstrand](https://github.com/filipstrand) | Jun 2026 | TBA |
-| ERNIE-Image | | [@filipstrand](https://github.com/filipstrand) | Apr 2026 | TBA |
-| FIBO | | [@filipstrand](https://github.com/filipstrand) | Oct 2025+ | TBA |
-| SeedVR2 | | [@filipstrand](https://github.com/filipstrand) | Jun 2025 | TBA |
-| Qwen Image | | [@filipstrand](https://github.com/filipstrand) | Aug 2025+ | TBA |
-| Depth Pro | | [@filipstrand](https://github.com/filipstrand) | Oct 2024 | TBA |
-| FLUX.1 | | [@filipstrand](https://github.com/filipstrand) | Aug 2024 | TBA |
+| FLUX.1 | | [@filipstrand](https://github.com/filipstrand) | 2024-08-12 | initial release |
+| Depth Pro | | [@filipstrand](https://github.com/filipstrand) | 2025-03-23 | [filipstrand#159](https://github.com/filipstrand/mflux/pull/159) |
+| Qwen Image | | [@filipstrand](https://github.com/filipstrand) | 2025-10-06 | [filipstrand#269](https://github.com/filipstrand/mflux/pull/269) |
+| FIBO | | [@filipstrand](https://github.com/filipstrand) | 2025-11-27 | [filipstrand#279](https://github.com/filipstrand/mflux/pull/279) |
+| Z-Image | | [@filipstrand](https://github.com/filipstrand) | 2025-12-03 | [filipstrand#284](https://github.com/filipstrand/mflux/pull/284) |
+| SeedVR2 | | [@filipstrand](https://github.com/filipstrand) | 2025-12-31 | [filipstrand#297](https://github.com/filipstrand/mflux/pull/297) |
+| FLUX.2 | | [@filipstrand](https://github.com/filipstrand) | 2026-01-18 | [filipstrand#323](https://github.com/filipstrand/mflux/pull/323) |
+| ERNIE-Image | | [@azrahello](https://github.com/azrahello) | 2026-06-06 | [filipstrand#417](https://github.com/filipstrand/mflux/pull/417) |
+| Ideogram 4 | | [@omercelik](https://github.com/omercelik) | 2026-06-06 | [filipstrand#433](https://github.com/filipstrand/mflux/pull/433) |
+| FLUX.2 | KV-cache (klein-9b-kv) | [@michaeltrefry](https://github.com/michaeltrefry) | 2026-06-07 | [filipstrand#426](https://github.com/filipstrand/mflux/pull/426) |
+| Krea 2 | | [@plz12345](https://github.com/plz12345) | 2026-06-30 | [filipstrand#453](https://github.com/filipstrand/mflux/pull/453) |
+
+Open upstream, and already running in the `mflux-cv` code this org forked:
+
+| Model | Component | Contributor | PR |
+|--|--|--|--|
+| Qwen-Image-Layered | | [@ZimengXiong](https://github.com/ZimengXiong) | [filipstrand#302](https://github.com/filipstrand/mflux/pull/302) |
+| | LyCORIS LoKr | [@JanGrohn](https://github.com/JanGrohn) | [filipstrand#422](https://github.com/filipstrand/mflux/pull/422) |
+| FLUX.2 | mixed-quant inference | [@ianscrivener](https://github.com/ianscrivener) | [filipstrand#436](https://github.com/filipstrand/mflux/pull/436) |
+| Ideogram 4 | mlx-forge checkpoint loading | [@plz12345](https://github.com/plz12345) | [filipstrand#445](https://github.com/filipstrand/mflux/pull/445) |
+| Boogu | | [@plz12345](https://github.com/plz12345) | [filipstrand#446](https://github.com/filipstrand/mflux/pull/446) |
+| | fused-qkv LoRA loading | [@deadmansahil](https://github.com/deadmansahil) | [filipstrand#459](https://github.com/filipstrand/mflux/pull/459) |
+| ERNIE / Krea 2 | img2img tiled latents | [@scaryrawr](https://github.com/scaryrawr) | [filipstrand#463](https://github.com/filipstrand/mflux/pull/463) |
+| Qwen | model version defaults | [@imbible](https://github.com/imbible) | [filipstrand#474](https://github.com/filipstrand/mflux/pull/474) |
+| | configurable VAE decode tiling | [@azrahello](https://github.com/azrahello) | [filipstrand#475](https://github.com/filipstrand/mflux/pull/475) |
+| Z-Image | ControlNet: Union | [@fxd0h](https://github.com/fxd0h) | [filipstrand#482](https://github.com/filipstrand/mflux/pull/482) |
+| Mage Flow | | [@ivanfioravanti](https://github.com/ivanfioravanti) | [filipstrand#483](https://github.com/filipstrand/mflux/pull/483) |
+| Krea 2 | ControlNet: Depth | [@fxd0h](https://github.com/fxd0h) | fork only, no upstream PR |
 
 ---
 <a id="related-projects"></a>
