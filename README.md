@@ -6,7 +6,7 @@
 
 ### About
 
-Run the latest state-of-the-art generative image models locally on your Mac in native MLX!
+Run the latest state-of-the-art generative image models locally on your Mac in native MLX!  
 
 ### Table of contents
 
@@ -14,6 +14,7 @@ Run the latest state-of-the-art generative image models locally on your Mac in n
 - [💿 Installation](#-installation)
 - [🎨 Models](#-models)
 - [✨ Features](#-features)
+- [🌱 Contributors](#contributors)
 - [🌱 Related projects](#related-projects)
 - [🙏 Acknowledgements](#-acknowledgements)
 - [⚖️ License](#%EF%B8%8F-license)
@@ -117,18 +118,18 @@ uv tool install --python 3.13 mflux
 
 MFLUX supports the following model families. They have different strengths and weaknesses; see each model’s README for full usage details.
 
-| Model | Release date | Size | Type | Training | Description |
+| Model | Release date | Size | Type | Training | Contributor | Description |
 | --- | --- | --- | --- | --- | --- |
-|[Z-Image](src/mflux/models/z_image/README.md) | Nov 2025 | 6B | Distilled & Base | Yes | Fast, small, very good quality and realism. |
-|[Krea 2](src/mflux/models/krea2/README.md) | Jun 2026 | 12B | Turbo (distilled) | No | Very good quality with a wide range of styles; good for creative exploration. |
-|[FLUX.2](src/mflux/models/flux2/README.md) | Jan 2026 | 4B & 9B | Distilled & Base | Yes | Fastest + smallest with very good qaility and edit capabilities. |
-|[Ideogram 4](src/mflux/models/ideogram4/README.md) | Jun 2026 | 9B | Base | No | JSON-caption-native, typography-focused text-to-image generation. |
-|[ERNIE-Image](src/mflux/models/ernie_image/README.md) | Apr 2026 | 8B | Distilled & Base | No | Single-stream DiT from Baidu. Vivid, high-contrast output. |
-|[FIBO](src/mflux/models/fibo/README.md) | Oct 2025+ | 8B | Distilled & Base | No | Very good JSON-based prompt understanding. Has edit capabilities. |
-|[SeedVR2](src/mflux/models/seedvr2/README.md) | Jun 2025 | 3B & 7B | — | No | Best upscaling model. |
-|[Qwen Image](src/mflux/models/qwen/README.md) | Aug 2025+ | 20B | Base | No | Large model (slower); strong prompt understanding and world knowledge. Has edit capabilities |
-|[Depth Pro](src/mflux/models/depth_pro/README.md) | Oct 2024 | — | — | No | Very fast and accurate depth estimation model from Apple. |
-|[FLUX.1](src/mflux/models/flux/README.md) | Aug 2024 | 12B | Distilled & Base | No (legacy) | Legacy option with decent quality. Has edit capabilities with 'Kontext' model and upscaling support via ControlNet |
+|[Z-Image](src/mflux/models/z_image/README.md) | Nov 2025 | 6B | Distilled & Base | Yes | TBA | Fast, small, very good quality and realism. |
+|[Krea 2](src/mflux/models/krea2/README.md) | Jun 2026 | 12B | Turbo (distilled) | No | TBA | Very good quality with a wide range of styles; good for creative exploration. |
+|[FLUX.2](src/mflux/models/flux2/README.md) | Jan 2026 | 4B & 9B | Distilled & Base | Yes | TBA | Fastest + smallest with very good qaility and edit capabilities. |
+|[Ideogram 4](src/mflux/models/ideogram4/README.md) | Jun 2026 | 9B | Base | No | TBA | JSON-caption-native, typography-focused text-to-image generation. |
+|[ERNIE-Image](src/mflux/models/ernie_image/README.md) | Apr 2026 | 8B | Distilled & Base | No | TBA | Single-stream DiT from Baidu. Vivid, high-contrast output. |
+|[FIBO](src/mflux/models/fibo/README.md) | Oct 2025+ | 8B | Distilled & Base | No | TBA | Very good JSON-based prompt understanding. Has edit capabilities. |
+|[SeedVR2](src/mflux/models/seedvr2/README.md) | Jun 2025 | 3B & 7B | — | No | TBA| Best upscaling model. |
+|[Qwen Image](src/mflux/models/qwen/README.md) | Aug 2025+ | 20B | Base | No | TBA | Large model (slower); strong prompt understanding and world knowledge. Has edit capabilities |
+|[Depth Pro](src/mflux/models/depth_pro/README.md) | Oct 2024 | — | — | No | TBA | Very fast and accurate depth estimation model from Apple. |
+|[FLUX.1](src/mflux/models/flux/README.md) | Aug 2024 | 12B | Distilled & Base | No (legacy) | [@filipstrand](https://github.com/filipstrand) | Legacy option with decent quality. Has edit capabilities with 'Kontext' model and upscaling support via ControlNet |
 
 ---
 
@@ -155,6 +156,30 @@ See the [common README](src/mflux/models/common/README.md) for detailed usage an
 
 ---
 
+<a id="related-contributors"></a>
+
+### 🌱 Contributors
+MFlux was originally created by Philip Strand in August 2024 And open sourced on GitHub.  
+
+| Model | Component | Contributor | Date | URL |
+|--|--|--|--|--|
+| Boogu | | [@plz12345](https://github.com/plz12345) | TBA | [filipstrand#446](https://github.com/filipstrand/mflux/pull/446) |
+| Qwen-Image-Layered | | [@ZimengXiong](https://github.com/ZimengXiong) | TBA | [filipstrand#302](https://github.com/filipstrand/mflux/pull/302) |
+| Mage Flow | | [@ivanfioravanti](https://github.com/ivanfioravanti) | TBA | [filipstrand#483](https://github.com/filipstrand/mflux/pull/483) |
+| Krea 2 | ControlNet: Depth | [@fxd0h](https://github.com/fxd0h) | TBA | ? |
+| Z-Image | ControlNet: Union | [@fxd0h](https://github.com/fxd0h) | TBA | ? |
+| Z-Image | | [@filipstrand](https://github.com/filipstrand) | Nov 2025 | TBA |
+| Krea 2 | | [@filipstrand](https://github.com/filipstrand) | Jun 2026 | TBA |
+| FLUX.2 | | [@filipstrand](https://github.com/filipstrand) | Jan 2026 | TBA |
+| Ideogram 4 | | [@filipstrand](https://github.com/filipstrand) | Jun 2026 | TBA |
+| ERNIE-Image | | [@filipstrand](https://github.com/filipstrand) | Apr 2026 | TBA |
+| FIBO | | [@filipstrand](https://github.com/filipstrand) | Oct 2025+ | TBA |
+| SeedVR2 | | [@filipstrand](https://github.com/filipstrand) | Jun 2025 | TBA |
+| Qwen Image | | [@filipstrand](https://github.com/filipstrand) | Aug 2025+ | TBA |
+| Depth Pro | | [@filipstrand](https://github.com/filipstrand) | Oct 2024 | TBA |
+| FLUX.1 | | [@filipstrand](https://github.com/filipstrand) | Aug 2024 | TBA |
+
+---
 <a id="related-projects"></a>
 
 ### 🌱 Related projects
