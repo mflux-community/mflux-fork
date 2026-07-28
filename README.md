@@ -156,7 +156,7 @@ See the [common README](src/mflux/models/common/README.md) for detailed usage an
 
 ---
 
-<a id="related-contributors"></a>
+<a id="contributors"></a>
 
 ### 🌱 Contributors
 MFlux was originally created by Philip Strand in August 2024 And open sourced on GitHub.  
