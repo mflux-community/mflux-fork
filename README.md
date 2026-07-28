@@ -161,9 +161,79 @@ See the [common README](src/mflux/models/common/README.md) for detailed usage an
 ### 🌱 Contributors
 MFlux was originally created by Filip Strand in August 2024 and open sourced on GitHub.
 
-Dates are the **merge date of the PR that brought the work in**, which is a different thing from the
-model's own public release date. Every row is read out of the upstream git history rather than filled
-in by hand, so it can be re-derived: `gh pr view <n> -R filipstrand/mflux --json author,mergedAt`.
+<table>
+<tr>
+<td align="center" width="150">
+<a href="https://github.com/filipstrand"><img src="https://github.com/filipstrand.png?size=100" width="72" alt="filipstrand"><br><b>Filip Strand</b></a><br>
+<sub>created mflux<br>FLUX.1 · FLUX.2 · Z-Image<br>FIBO · SeedVR2 · Qwen · Depth Pro</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/plz12345"><img src="https://github.com/plz12345.png?size=100" width="72" alt="plz12345"><br><b>plz12345</b></a><br>
+<sub>Krea 2 · Boogu-Image<br>Ideogram 4 mlx-forge loading</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/ivanfioravanti"><img src="https://github.com/ivanfioravanti.png?size=100" width="72" alt="ivanfioravanti"><br><b>Ivan Fioravanti</b></a><br>
+<sub>Mage Flow<br>text-to-image and edit</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/azrahello"><img src="https://github.com/azrahello.png?size=100" width="72" alt="azrahello"><br><b>Alessandro Rizzo</b></a><br>
+<sub>ERNIE-Image<br>configurable VAE tiling</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/omercelik"><img src="https://github.com/omercelik.png?size=100" width="72" alt="omercelik"><br><b>omercelik</b></a><br>
+<sub>Ideogram 4</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="150">
+<a href="https://github.com/ZimengXiong"><img src="https://github.com/ZimengXiong.png?size=100" width="72" alt="ZimengXiong"><br><b>Zimeng Xiong</b></a><br>
+<sub>Qwen-Image-Layered<br>RGBA decomposition</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/JanGrohn"><img src="https://github.com/JanGrohn.png?size=100" width="72" alt="JanGrohn"><br><b>Jan Grohn</b></a><br>
+<sub>LyCORIS LoKr adapters</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/michaeltrefry"><img src="https://github.com/michaeltrefry.png?size=100" width="72" alt="michaeltrefry"><br><b>michaeltrefry</b></a><br>
+<sub>FLUX.2 KV-cache<br>klein-9b-kv</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/ianscrivener"><img src="https://github.com/ianscrivener.png?size=100" width="72" alt="ianscrivener"><br><b>Ian Scrivener</b></a><br>
+<sub>FLUX.2 mixed-quant inference</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/deadmansahil"><img src="https://github.com/deadmansahil.png?size=100" width="72" alt="deadmansahil"><br><b>Sahil Tanveer</b></a><br>
+<sub>fused-qkv LoRA loading</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="150">
+<a href="https://github.com/scaryrawr"><img src="https://github.com/scaryrawr.png?size=100" width="72" alt="scaryrawr"><br><b>Mike Wallio</b></a><br>
+<sub>ERNIE / Krea 2<br>img2img tiled latents</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/imbible"><img src="https://github.com/imbible.png?size=100" width="72" alt="imbible"><br><b>George</b></a><br>
+<sub>Qwen model version defaults</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/Missing-Identity"><img src="https://github.com/Missing-Identity.png?size=100" width="72" alt="Missing-Identity"><br><b>Unmilan Mukherjee</b></a><br>
+<sub>SeedVR2<br>linear-time histogram matching</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/fxd0h"><img src="https://github.com/fxd0h.png?size=100" width="72" alt="fxd0h"><br><b>Mariano Abad</b></a><br>
+<sub>Z-Image and Krea 2 ControlNets<br>multi-ControlNet · training suite</sub>
+</td>
+<td align="center" width="150">
+<a href="https://github.com/filipstrand/mflux/graphs/contributors"><img src="https://github.com/mflux-community.png?size=100" width="72" alt="everyone else"><br><b>everyone else</b></a><br>
+<sub>every contributor and tester<br>in the graph</sub>
+</td>
+</tr>
+</table>
+
+The provenance behind that grid. Dates are the **merge date of the PR that brought the work in**, which
+is a different thing from the model's own public release date. Every row is read out of the upstream git
+history rather than filled in by hand, so it can be re-derived:
+`gh pr view <n> -R filipstrand/mflux --json author,mergedAt`.
 
 Merged upstream:
 
